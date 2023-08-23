@@ -1,17 +1,26 @@
-.price{
-    display: block;
-    float: right;
-    margin-right: 400px;
-    margin-top: 50px;
-}
-
-.image {
-    background-color: bisque;
-    height: 200px;
+.btn-wrapper button {
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: #333 0px 1px 5px;
+  }
+  .img-wrapper img {
+    width: 100px;
+    margin-top: -10px;;
+    height: 130px;
+  }
+  .cart-wrapper{
+    height: 150px;
+      width: 600px;
+      border: 1px solid #ccc;
+      margin-left: 10%;
+  }
+  .item {
+    float: left;
+    display: inline-block;
     width: 150px;
-}
-.btn{
-    float: right;
-    margin-right: 400px;
-    margin-top: 50px;
-}
+    padding: 20px;
+    height: 70px;
+  }

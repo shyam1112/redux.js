@@ -1,23 +1,28 @@
-
 import React from 'react'
 import tshirtphoto from '../image/tshirtphoto.jpeg'
-function Home() {
-    return (<div>
-        <h1>
-            Home component
-        </h1>
-        <div className='item'>
-            <img src={tshirtphoto} alt='T-shirt' className='image' />
-
-            <div className='price'>
-                <h3>T-shirt price :$400</h3>
-            </div>
-            
-            <div className='btn'>
-                <button >Add to cart</button>
+function Home(props) {
+    return (
+        <div>
+           
+            {/* <h1>Home Component</h1> */}
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src={tshirtphoto} alt='tshirtphoto' />
+                </div>
+                <div className="text-wrapper item">
+                    <span>
+                        T-shirt
+                    </span>
+                    <span>
+                        Price: $1000.00
+                    </span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button>
+                        Add To Cart</button>
+                </div>
             </div>
         </div>
-
-    </div>)
+    )
 }
-export default Home;
+export default Home
